@@ -1,9 +1,7 @@
 import dotenv from "dotenv";
 import express from "express";
-import {
-  fetchAttendanceDetails,
-  loginSimple
-} from "./controllers/controller";
+import { fetchAttendanceDetails, loginSimple } from "./controllers/controller";
+import "./redis";
 
 dotenv.config();
 

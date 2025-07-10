@@ -124,7 +124,7 @@ export const loginSimple = async (req: Request, res: Response) => {
       page.evaluate(() => document.body.innerText),
       page.evaluate(() => localStorage.getItem("Token")),
     ]);
-
+  
     const isLoginSuccessful =
       !bodyText.includes("Enter Password") &&
       !bodyText.includes("Invalid") &&
