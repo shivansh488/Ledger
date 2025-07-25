@@ -8,4 +8,4 @@
      - **Red Zone**: Critical
 
 3. 🤖 **Improved CAPTCHA Handling**  
-   - Implement a better CAPTCHA solution instead of relying on AWS.
+   - Implement a better CAPTCHA solution instead of relying on AWS...
